@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T04:26:34.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="bI5rzel5Sev0Y4Z4DY2y" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T04:34:23.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="CzkMo80MwjyVFTUgTyRT" version="17.1.0" type="github">
   <diagram id="MShSl_sl0wMES_8ho4Z_" name="Page-1">
-    <mxGraphModel dx="1156" dy="684" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1028" dy="608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="v0g-8qAfeYfXZA7PsyCb-0" />
         <mxCell id="v0g-8qAfeYfXZA7PsyCb-1" parent="v0g-8qAfeYfXZA7PsyCb-0" />
@@ -133,8 +133,8 @@
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-16" target="zqhBAqW_Apy_SoyuCMTB-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-16" value="Onboard user to the requested project only" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="1430" y="1364" width="242" height="114" as="geometry" />
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-16" value="Onboard user to the requested project only, with the requested roles" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
+          <mxGeometry x="1417" y="1352.5" width="268" height="137" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-19" target="zqhBAqW_Apy_SoyuCMTB-24">
           <mxGeometry relative="1" as="geometry" />
@@ -144,6 +144,9 @@
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-24" value="End" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="1813" y="1391" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-27" value="&lt;h1&gt;Example&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;User_7 and User_8 requested to be onboarded to xxx_pnc_protected: add these two users to&amp;nbsp;xxx_pnc_protected with the requested roles.&lt;/li&gt;&lt;li&gt;User_9 and User_10 requested to be onboarded to pu_shared: add these two users to&amp;nbsp;pu_shared with the requested roles.&lt;/li&gt;&lt;li&gt;User_5 and User_6 requested to be onboarded to pnc_shared: add these two users to pnc_shared with the requested roles, plus adding them to property_pnc_private and xxx_pnc_private as well, with the viewer role.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;sketch=0;fontSize=27;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
+          <mxGeometry x="1387" y="1575" width="877" height="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
