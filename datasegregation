@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T08:08:16.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="LMmPs7q5ADLDpLk7aa0f" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T08:09:55.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="UrQDVaSNeeY-tTwJ44FG" version="17.1.0" type="github">
   <diagram id="MShSl_sl0wMES_8ho4Z_" name="Page-1">
-    <mxGraphModel dx="3198" dy="1780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1705" dy="949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="v0g-8qAfeYfXZA7PsyCb-0" />
         <mxCell id="v0g-8qAfeYfXZA7PsyCb-1" parent="v0g-8qAfeYfXZA7PsyCb-0" />
@@ -145,11 +145,11 @@
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-19" target="zqhBAqW_Apy_SoyuCMTB-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-19" value="Onboard user to the requested project, plus all the other shared projects that of the belonging BU, as well as the public project" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="1695" y="820.9100000000001" width="348" height="172.19" as="geometry" />
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-19" value="Onboard user to the requested project with desired roles, plus all the other shared projects that of the belonging BU, as well as the public project, with the viewer role" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
+          <mxGeometry x="1645" y="820.91" width="431" height="172.19" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-24" value="End" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="1809" y="1055" width="120" height="60" as="geometry" />
+          <mxGeometry x="1800.5" y="1058" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-27" value="&lt;h1&gt;Example&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;User_7 and User_8 requested to be onboarded to xxx_pnc_protected&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Add these two users to&amp;nbsp;xxx_pnc_protected with the requested roles.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;User_9 and User_10 requested to be onboarded to pu_shared&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Add these two users to&amp;nbsp;pu_shared with the requested roles.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;User_5 and User_6 requested to be onboarded to pnc_shared&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Add these two users to pnc_shared with the requested roles, plus adding them to property_pnc_private and xxx_pnc_private as well, with the viewer role.&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;sketch=0;fontSize=27;labelBorderColor=default;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="1245" y="1191" width="1057" height="572" as="geometry" />
@@ -175,15 +175,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-41" value="Protected project?" style="rhombus;whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="2129.5" y="516" width="277" height="191.5" as="geometry" />
+          <mxGeometry x="2194.75" y="516" width="277" height="191.5" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=27;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-43" target="zqhBAqW_Apy_SoyuCMTB-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2555.9861450195312" y="1067.2640511648997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-43" value="&lt;span&gt;Onboard user to the requested project, plus all the shared projects within the belonging BU, as well as the public project&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="2101.5" y="817.99" width="333" height="173.01" as="geometry" />
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-43" value="&lt;span&gt;Onboard user to the requested project with desired roles, plus all the shared projects within the belonging BU, as well as the public project, with the viewer role&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
+          <mxGeometry x="2101.5" y="817.99" width="463.5" height="173.01" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
