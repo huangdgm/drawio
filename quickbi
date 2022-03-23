@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T08:16:32.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" version="17.1.0" etag="Cx1lcQAuYlQ6p6BCEme2" type="github"><diagram id="rLxIWcqQy_CRL4m8PQYH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-23T08:30:49.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="41Wpw5NjaUc09X8G4yZh" version="17.1.0" type="github">
+  <diagram id="rLxIWcqQy_CRL4m8PQYH" name="Page-1">
+    <mxGraphModel dx="799" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-1" target="jzICT5Nl_Jjsl3lAvhB1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-1" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-2" target="jzICT5Nl_Jjsl3lAvhB1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-2" value="process request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-10" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-8" target="jzICT5Nl_Jjsl3lAvhB1-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="500.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-12" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-8" target="jzICT5Nl_Jjsl3lAvhB1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-8" value="if user exists in org" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-11" target="jzICT5Nl_Jjsl3lAvhB1-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="530.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-11" value="add user to organization with the developer role" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-17" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-15" target="jzICT5Nl_Jjsl3lAvhB1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-19" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzICT5Nl_Jjsl3lAvhB1-15" target="jzICT5Nl_Jjsl3lAvhB1-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-15" value="if user exists in workspace?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-16" value="add user to workspace" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-18" value="add user to workspace with requested role" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzICT5Nl_Jjsl3lAvhB1-20" value="update user&#39;s role to the new role" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
