@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T07:57:43.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="EtkYl7yLpsLaxi2aptmD" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T08:04:26.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="6FxIJN1CE1H6iPiN-3mt" version="17.1.0" type="github">
   <diagram id="MShSl_sl0wMES_8ho4Z_" name="Page-1">
-    <mxGraphModel dx="1088" dy="602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="1017" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="v0g-8qAfeYfXZA7PsyCb-0" />
         <mxCell id="v0g-8qAfeYfXZA7PsyCb-1" parent="v0g-8qAfeYfXZA7PsyCb-0" />
@@ -125,7 +125,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-38" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-14" target="zqhBAqW_Apy_SoyuCMTB-37">
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-38" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-14" target="zqhBAqW_Apy_SoyuCMTB-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1775" y="1126" />
@@ -136,23 +136,23 @@
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-14" value="Public project?" style="rhombus;whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="1412.5" y="1030" width="277" height="191.5" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-16" target="zqhBAqW_Apy_SoyuCMTB-24">
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-16" target="zqhBAqW_Apy_SoyuCMTB-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-16" value="Onboard user to the requested project only, with the requested roles" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="1417" y="1352.5" width="268" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-19" target="zqhBAqW_Apy_SoyuCMTB-24">
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=27;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-19" target="zqhBAqW_Apy_SoyuCMTB-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-19" value="Onboard user to the requested project, plus all the other shared projects that of the belonging BU" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="2012" y="1334.9" width="348" height="172.19" as="geometry" />
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-19" value="Onboard user to the requested project, plus all the other shared projects that of the belonging BU, as well as the public project" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
+          <mxGeometry x="1782.5" y="1334.91" width="348" height="172.19" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-24" value="End" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="1801" y="1537" width="120" height="60" as="geometry" />
+          <mxGeometry x="1896.5" y="1569" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-27" value="&lt;h1&gt;Example&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;User_7 and User_8 requested to be onboarded to xxx_pnc_protected&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Add these two users to&amp;nbsp;xxx_pnc_protected with the requested roles.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;User_9 and User_10 requested to be onboarded to pu_shared&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Add these two users to&amp;nbsp;pu_shared with the requested roles.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;User_5 and User_6 requested to be onboarded to pnc_shared&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Add these two users to pnc_shared with the requested roles, plus adding them to property_pnc_private and xxx_pnc_private as well, with the viewer role.&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;sketch=0;fontSize=27;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="1387" y="1575" width="1057" height="536" as="geometry" />
+          <mxGeometry x="1332.5" y="1705" width="1057" height="536" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-36" value="&lt;h1&gt;Open question&lt;/h1&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;If it is possible that a specific user gets approved to onboard to different projects that are belonging to different BU?&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="1712" y="398" width="370" height="230" as="geometry" />
@@ -160,25 +160,30 @@
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=27;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-37" target="zqhBAqW_Apy_SoyuCMTB-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-40" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;fontColor=#FF0000;" vertex="1" connectable="0" parent="zqhBAqW_Apy_SoyuCMTB-39">
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-40" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=27;fontColor=#000000;" vertex="1" connectable="0" parent="zqhBAqW_Apy_SoyuCMTB-39">
           <mxGeometry x="0.0874" y="-2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-42" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-37" target="zqhBAqW_Apy_SoyuCMTB-41">
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-42" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-37" target="zqhBAqW_Apy_SoyuCMTB-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-37" value="BU shared project?" style="rhombus;whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="1818" y="1030" width="277" height="191.5" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-44" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-41" target="zqhBAqW_Apy_SoyuCMTB-43">
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-44" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=27;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-41" target="zqhBAqW_Apy_SoyuCMTB-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqhBAqW_Apy_SoyuCMTB-41" value="Protected project?" style="rhombus;whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
           <mxGeometry x="2217" y="1030" width="277" height="191.5" as="geometry" />
         </mxCell>
-        <mxCell id="zqhBAqW_Apy_SoyuCMTB-43" value="" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
-          <mxGeometry x="2409" y="1331.99" width="330" height="173.01" as="geometry" />
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=27;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="v0g-8qAfeYfXZA7PsyCb-1" source="zqhBAqW_Apy_SoyuCMTB-43" target="zqhBAqW_Apy_SoyuCMTB-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2643.4861450195312" y="1581.2640511648997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqhBAqW_Apy_SoyuCMTB-43" value="&lt;span&gt;Onboard user to the requested project, plus all the shared projects within the belonging BU, as well as the public project&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=27;rounded=1;shadow=0;glass=0;sketch=0;strokeWidth=3;" vertex="1" parent="v0g-8qAfeYfXZA7PsyCb-1">
+          <mxGeometry x="2189" y="1331.99" width="333" height="173.01" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
