@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T00:59:18.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="U0iR0X5k--a8sF-QILCp" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T05:33:47.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="yruhDXTNTgvrXgQDGHS_" version="17.4.5" type="github">
   <diagram id="rLxIWcqQy_CRL4m8PQYH" name="Page-1">
-    <mxGraphModel dx="740" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1168" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,6 +234,56 @@
         </mxCell>
         <mxCell id="ckj3a1qH8NlN25HECBPg-34" value="add role to user in cube maxcompute" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1260" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-6" target="HHEMC4pg_9Ji_9Ejfq0k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-6" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-7" target="HHEMC4pg_9Ji_9Ejfq0k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-7" value="process request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-14" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-9" target="HHEMC4pg_9Ji_9Ejfq0k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-16" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-9" target="HHEMC4pg_9Ji_9Ejfq0k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-9" value="if user exists in workspace?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-13" value="end" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-17" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-15" target="HHEMC4pg_9Ji_9Ejfq0k-13">
+          <mxGeometry x="0.3077" relative="1" as="geometry">
+            <mxPoint x="1900" y="590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-19" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-15" target="HHEMC4pg_9Ji_9Ejfq0k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-15" value="if user has role to be revoked?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-18" target="HHEMC4pg_9Ji_9Ejfq0k-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-18" value="remove role from user" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-20" target="HHEMC4pg_9Ji_9Ejfq0k-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-20" value="if workspace belongs to CUBE?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1825" y="810" width="110" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
