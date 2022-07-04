@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T05:34:03.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="mDUxLIwtqJUdONyTeA-D" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T15:20:05.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="GNVE8Z2-lfzTYuztrUZU" version="20.0.2" type="github">
   <diagram id="rLxIWcqQy_CRL4m8PQYH" name="Page-1">
-    <mxGraphModel dx="1168" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1058" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ckj3a1qH8NlN25HECBPg-11" target="ckj3a1qH8NlN25HECBPg-23">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ckj3a1qH8NlN25HECBPg-11" target="ckj3a1qH8NlN25HECBPg-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1108" y="750" />
@@ -166,7 +166,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-5" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HHEMC4pg_9Ji_9Ejfq0k-4">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-5" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HHEMC4pg_9Ji_9Ejfq0k-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1611" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -235,61 +235,125 @@
         <mxCell id="ckj3a1qH8NlN25HECBPg-34" value="add role to user in cube maxcompute" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1260" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-6" target="HHEMC4pg_9Ji_9Ejfq0k-7">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-6" target="HHEMC4pg_9Ji_9Ejfq0k-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-6" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-6" value="start" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1620" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-7" target="HHEMC4pg_9Ji_9Ejfq0k-9">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-7" target="HHEMC4pg_9Ji_9Ejfq0k-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-7" value="process request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-7" value="process request" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1620" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-14" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-9" target="HHEMC4pg_9Ji_9Ejfq0k-13">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-14" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-9" target="HHEMC4pg_9Ji_9Ejfq0k-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-16" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-9" target="HHEMC4pg_9Ji_9Ejfq0k-15">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-16" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-9" target="HHEMC4pg_9Ji_9Ejfq0k-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-9" value="if user exists in workspace?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-9" value="if user exists in workspace?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1620" y="490" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-13" value="end" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-13" value="end" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1820" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-17" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-15" target="HHEMC4pg_9Ji_9Ejfq0k-13">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-17" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-15" target="HHEMC4pg_9Ji_9Ejfq0k-13" edge="1">
           <mxGeometry x="0.3077" relative="1" as="geometry">
             <mxPoint x="1900" y="590" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-19" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-15" target="HHEMC4pg_9Ji_9Ejfq0k-18">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-19" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-15" target="HHEMC4pg_9Ji_9Ejfq0k-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-15" value="if user has role to be revoked?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-15" value="if user has role to be revoked?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1610" y="650" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-18" target="HHEMC4pg_9Ji_9Ejfq0k-20">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-18" target="HHEMC4pg_9Ji_9Ejfq0k-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-18" value="remove role from user" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-18" value="remove role from user" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1620" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-20" target="HHEMC4pg_9Ji_9Ejfq0k-13">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-20" target="HHEMC4pg_9Ji_9Ejfq0k-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1960" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-28" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-20" target="HHEMC4pg_9Ji_9Ejfq0k-27">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-28" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HHEMC4pg_9Ji_9Ejfq0k-20" target="HHEMC4pg_9Ji_9Ejfq0k-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-20" value="if workspace belongs to CUBE?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-20" value="if workspace belongs to CUBE?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1825" y="810" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-27" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HHEMC4pg_9Ji_9Ejfq0k-27" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2010" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-1" target="obuq1fYKmHJyrdSNQ-Yl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-1" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-2" target="obuq1fYKmHJyrdSNQ-Yl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-2" value="create new workspace abc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-4" target="obuq1fYKmHJyrdSNQ-Yl-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sr_shared&lt;/span&gt;&lt;/div&gt;&lt;br&gt;allow project abc_dev to install package package_sr_shared;&lt;br&gt;allow project abc to install package package_sr_shared;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="580" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-11" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-6" target="obuq1fYKmHJyrdSNQ-Yl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-6" value="is workspace abc standard mode?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="obuq1fYKmHJyrdSNQ-Yl-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-16" target="obuq1fYKmHJyrdSNQ-Yl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-16" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;xx_shared&lt;/span&gt;&lt;/div&gt;&lt;br&gt;allow project abc_dev to install package package_xx_shared;&lt;br&gt;allow project abc to install package package_xx_shared;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="860" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-18" target="obuq1fYKmHJyrdSNQ-Yl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-18" value="Check the belonging BU of the workspace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-24" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-21" target="obuq1fYKmHJyrdSNQ-Yl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-21" value="is the workspace private?" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="990" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-23" target="obuq1fYKmHJyrdSNQ-Yl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-23" value="&lt;div style=&quot;text-align: center; margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number76 index75 alt1&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;abc&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number76 index75 alt1&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number76 index75 alt1&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;create&amp;nbsp;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; font-weight: bold !important; color: rgb(51, 102, 153) !important;&quot; class=&quot;java keyword&quot;&gt;package&lt;/code&gt;&amp;nbsp;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;package_abc;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number77 index76 alt2&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;add table * to&amp;nbsp;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; font-weight: bold !important; color: rgb(51, 102, 153) !important;&quot; class=&quot;java keyword&quot;&gt;package&lt;/code&gt;&amp;nbsp;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;package_abc;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="1140" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obuq1fYKmHJyrdSNQ-Yl-25" target="obuq1fYKmHJyrdSNQ-Yl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-25" value="Get the shared workspace and all the protected workspaces&amp;nbsp;that belong to the same BU" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="1310" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obuq1fYKmHJyrdSNQ-Yl-27" value="&lt;div style=&quot;text-align: center; margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number78 index77 alt1&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;abc&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number78 index77 alt1&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number78 index77 alt1&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;allow project xx_shared to install&amp;nbsp;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; font-weight: bold !important; color: rgb(51, 102, 153) !important;&quot; class=&quot;java keyword&quot;&gt;package&lt;/code&gt;&amp;nbsp;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;package_abc;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px 1em 0px 0em; border-radius: 0px; background: none rgb(255, 255, 255); border: 0px; inset: auto; float: none; height: auto; line-height: 20px; outline: 0px; overflow: visible; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 14px; min-height: inherit; color: rgb(51, 51, 51);&quot; class=&quot;line number79 index78 alt2&quot;&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;allow project xx_shared_dev to install&amp;nbsp;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; font-weight: bold !important; color: rgb(51, 102, 153) !important;&quot; class=&quot;java keyword&quot;&gt;package&lt;/code&gt;&amp;nbsp;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background: none; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; vertical-align: baseline; width: auto; box-sizing: content-box; min-height: inherit; color: rgb(0, 0, 0) !important;&quot; class=&quot;java plain&quot;&gt;package_abc;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1450" width="620" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
