@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T03:45:31.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="vRIitGQlPdIwKIpMzdx_" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T03:49:40.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="2jD9spM9QQOykZzRiOjz" version="20.1.1" type="github">
   <diagram id="rLxIWcqQy_CRL4m8PQYH" name="Page-1">
     <mxGraphModel dx="943" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -454,7 +454,7 @@
             <mxPoint x="-161" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YqiK9dXZ5q4hfe4v0V5r-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqiK9dXZ5q4hfe4v0V5r-15" target="YqiK9dXZ5q4hfe4v0V5r-17">
+        <mxCell id="YqiK9dXZ5q4hfe4v0V5r-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqiK9dXZ5q4hfe4v0V5r-15" target="YqiK9dXZ5q4hfe4v0V5r-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2860" y="920" as="targetPoint" />
           </mxGeometry>
@@ -467,11 +467,14 @@
         <mxCell id="YqiK9dXZ5q4hfe4v0V5r-15" value="check exception list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2600" y="880" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YqiK9dXZ5q4hfe4v0V5r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqiK9dXZ5q4hfe4v0V5r-17" target="YqiK9dXZ5q4hfe4v0V5r-3">
+        <mxCell id="YqiK9dXZ5q4hfe4v0V5r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YqiK9dXZ5q4hfe4v0V5r-17" target="YqiK9dXZ5q4hfe4v0V5r-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YqiK9dXZ5q4hfe4v0V5r-17" value="allow download" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2860" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiK9dXZ5q4hfe4v0V5r-28" value="&lt;h1&gt;Note&lt;/h1&gt;&lt;p&gt;Assuming the IP whitelist and download permission control have been enabled as part of the standard setup.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="270" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
