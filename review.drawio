@@ -1,38 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T03:53:39.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="1aw1bjXtaKpcIy4IIKXo" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T04:01:31.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="Cmfu_q5nxBDRkrKNDnt_" version="21.0.10" type="github">
   <diagram id="xGa5VK5buWBXCOUlBe-7" name="Page-1">
-    <mxGraphModel dx="1182" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-1" value="Data Source A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-3" value="QuickBI&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-40" width="150" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-2" value="Data Set A1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="120" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-3" value="Dashboard B1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="70" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-4" value="Data Source B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-5" value="Data Set A2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="130" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-6" value="Dashboard B2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="60" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-7" value="MaxCompute&lt;br&gt;A distributed computing engine&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ODPS SPARK - Python, Java, Scala&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Python SDK - PyODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Java SDK&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;R SDK - RODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MapReduce&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SQL&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UDF - Python, Java&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;...&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-7" value="&lt;b&gt;MaxCompute&lt;/b&gt;&lt;br&gt;A distributed computing engine&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ODPS SPARK - Python, Java, Scala&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Python SDK - PyODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Java SDK&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;R SDK - RODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MapReduce&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SQL&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UDF - Python, Java&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;...&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="145" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-8" value="OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-8" value="&lt;b&gt;Data Source&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;OSS&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;MaxCompute&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Relational db&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Hologres&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-40" width="130" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-9" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-11" value="DataWorks&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Integration&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Studio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Migration Assistant&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Operation Center&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Code Review&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Deploy&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="250" width="240" height="170" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-11" value="&lt;b&gt;DataWorks&lt;/b&gt;&lt;br&gt;A data development lifecycle platform&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Integration&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Studio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Migration Assistant&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Operation Center&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Code Review&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Deploy&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-40" width="240" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
