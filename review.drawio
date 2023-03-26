@@ -1,71 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T14:14:57.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="zRBiDkq_7gq3AVmJ2Mor" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-26T14:43:08.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="NGtCEi5sdbZOIUuNUREX" version="21.0.10" type="github">
   <diagram id="xGa5VK5buWBXCOUlBe-7" name="Page-1">
-    <mxGraphModel dx="794" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1135" dy="2135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-3" target="dJkEzZFMhuIuKuouhyB1-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-3" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="-40" width="155" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-7" value="&lt;b&gt;MaxCompute&lt;/b&gt;&lt;br&gt;A distributed computing engine&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ODPS SPARK - Python, Java, Scala&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Python SDK - PyODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Java SDK&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;R SDK - RODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MapReduce&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SQL&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UDF - Python, Java&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;...&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="145" width="240" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-8" value="&lt;b&gt;Data Source&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;OSS&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;MaxCompute&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Relational db&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Hologres&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-40" width="130" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-11" value="&lt;b&gt;DataWorks&lt;/b&gt;&lt;br&gt;A data development lifecycle platform&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Integration&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Studio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Migration Assistant&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Operation Center&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Code Review&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Deploy&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-40" width="240" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-14" target="dJkEzZFMhuIuKuouhyB1-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-14" value="User requests one role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="445" y="50" width="155" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-16" value="Add user to role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="445" y="145" width="155" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-18" value="New user onboarding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-90" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-20" target="dJkEzZFMhuIuKuouhyB1-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-20" target="dJkEzZFMhuIuKuouhyB1-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="974.5" y="-910" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dJkEzZFMhuIuKuouhyB1-20" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="-40" width="155" height="45" as="geometry" />
+          <mxGeometry x="897" y="-1000" width="155" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dJkEzZFMhuIuKuouhyB1-21" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-25" target="dJkEzZFMhuIuKuouhyB1-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-22" value="User requests one role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="50" width="155" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="dJkEzZFMhuIuKuouhyB1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-23" target="dJkEzZFMhuIuKuouhyB1-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-23" value="Add user to the new role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630.5" y="270" width="155" height="60" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-23" value="Update user role to the new role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="-650" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJkEzZFMhuIuKuouhyB1-24" value="Existing user onboarding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="665" y="-90" width="85" height="30" as="geometry" />
+          <mxGeometry x="932" y="-1050" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-22" target="dJkEzZFMhuIuKuouhyB1-25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708" y="110" as="sourcePoint" />
-            <mxPoint x="708" y="270" as="targetPoint" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-26" value="One" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-58" target="dJkEzZFMhuIuKuouhyB1-25">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint x="974.5" y="-850" as="sourcePoint" />
+            <mxPoint x="975" y="-690" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-29" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-25" target="dJkEzZFMhuIuKuouhyB1-27">
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-29" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-25" target="dJkEzZFMhuIuKuouhyB1-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="-730" />
+              <mxPoint x="1090" y="-440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-25" value="If the requested role or the most privileged role is more privileged than the existing role?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-770" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-27" target="dJkEzZFMhuIuKuouhyB1-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-25" value="If the requested role is more privileged than the existing role?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="623" y="150" width="170" height="80" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-27" value="Close the request(s)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="897" y="-560" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-27" value="End" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630.5" y="360" width="155" height="60" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-60" value="Two or more" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-58" target="dJkEzZFMhuIuKuouhyB1-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-58" value="How many roles does the user request?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-920" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-59" target="dJkEzZFMhuIuKuouhyB1-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1248" y="-800" />
+              <mxPoint x="975" y="-800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-59" value="Identify the most privileged role" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-910" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-62" value="End" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="897" y="-470" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-65" target="dJkEzZFMhuIuKuouhyB1-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1474.5" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-65" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1397" y="-1000" width="155" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-68" target="dJkEzZFMhuIuKuouhyB1-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-68" value="Add user to the requested role (or the most privileged role if the user requested more than one role)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1397.5" y="-760" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-69" value="New user onboarding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1432" y="-1050" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-70" value="One" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-76" target="dJkEzZFMhuIuKuouhyB1-68">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint x="1474.5" y="-850" as="sourcePoint" />
+            <mxPoint x="1475" y="-770" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-75" value="Two or more" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-76" target="dJkEzZFMhuIuKuouhyB1-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-76" value="How many roles does the user request?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="-920" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-78" target="dJkEzZFMhuIuKuouhyB1-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1748" y="-800" />
+              <mxPoint x="1475" y="-800" />
+            </Array>
+            <mxPoint x="1475" y="-770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-78" value="Identify the most privileged role" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="-910" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-79" target="dJkEzZFMhuIuKuouhyB1-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-79" value="Close the request(s)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1397" y="-660" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-81" value="End" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1397.5" y="-560" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-84" target="dJkEzZFMhuIuKuouhyB1-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1985" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-84" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1907.5" y="-1000" width="155" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-87" value="User off-boarding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1942.5" y="-1050" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-88" value="One" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-90" target="dJkEzZFMhuIuKuouhyB1-96">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint x="1985" y="-850" as="sourcePoint" />
+            <mxPoint x="1985.5" y="-760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-89" value="Two or more" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-90" target="dJkEzZFMhuIuKuouhyB1-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-90" value="How many roles are requested to be removed from user?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900.5" y="-920" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-92" target="dJkEzZFMhuIuKuouhyB1-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2257.5" y="-800" />
+              <mxPoint x="1985.5" y="-800" />
+            </Array>
+            <mxPoint x="1985.5" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-92" value="Identify the most privileged role" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2180.5" y="-910" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-98" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-96" target="dJkEzZFMhuIuKuouhyB1-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1985" y="-600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-96" target="dJkEzZFMhuIuKuouhyB1-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-96" value="If the identified role is less privileged than the user&#39;s existing role?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="-770" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-99" target="dJkEzZFMhuIuKuouhyB1-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-99" value="Close the request(s)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1907" y="-645" width="155" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-100" value="End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1907" y="-560" width="155" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-102" target="dJkEzZFMhuIuKuouhyB1-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-102" value="Remove existing role from user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120.5" y="-752.5" width="155" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
