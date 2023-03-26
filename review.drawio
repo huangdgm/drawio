@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T04:01:31.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="Cmfu_q5nxBDRkrKNDnt_" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-26T14:14:57.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.46" etag="zRBiDkq_7gq3AVmJ2Mor" version="21.0.10" type="github">
   <diagram id="xGa5VK5buWBXCOUlBe-7" name="Page-1">
-    <mxGraphModel dx="1182" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dJkEzZFMhuIuKuouhyB1-3" value="QuickBI&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-40" width="150" height="180" as="geometry" />
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-3" target="dJkEzZFMhuIuKuouhyB1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-3" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="-40" width="155" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dJkEzZFMhuIuKuouhyB1-7" value="&lt;b&gt;MaxCompute&lt;/b&gt;&lt;br&gt;A distributed computing engine&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ODPS SPARK - Python, Java, Scala&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Python SDK - PyODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Java SDK&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;R SDK - RODPS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MapReduce&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SQL&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UDF - Python, Java&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;...&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="145" width="240" height="170" as="geometry" />
@@ -15,6 +18,54 @@
         </mxCell>
         <mxCell id="dJkEzZFMhuIuKuouhyB1-11" value="&lt;b&gt;DataWorks&lt;/b&gt;&lt;br&gt;A data development lifecycle platform&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Integration&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Data Studio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Migration Assistant&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Operation Center&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Code Review&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Deploy&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="-40" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-14" target="dJkEzZFMhuIuKuouhyB1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-14" value="User requests one role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="50" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-16" value="Add user to role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="145" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-18" value="New user onboarding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-20" target="dJkEzZFMhuIuKuouhyB1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-20" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-40" width="155" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-21" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-25" target="dJkEzZFMhuIuKuouhyB1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-22" value="User requests one role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-23" target="dJkEzZFMhuIuKuouhyB1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-23" value="Add user to the new role in QuickBI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630.5" y="270" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-24" value="Existing user onboarding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="-90" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-22" target="dJkEzZFMhuIuKuouhyB1-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="110" as="sourcePoint" />
+            <mxPoint x="708" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-29" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJkEzZFMhuIuKuouhyB1-25" target="dJkEzZFMhuIuKuouhyB1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-25" value="If the requested role is more privileged than the existing role?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="623" y="150" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJkEzZFMhuIuKuouhyB1-27" value="End" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630.5" y="360" width="155" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
