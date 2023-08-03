@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T05:22:59.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="rMHf3vkCaR_dOWCz2GcL" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T05:41:25.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="yjg7dWnn5w5YPKXI6Kod" version="21.6.6" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
-    <mxGraphModel dx="1026" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="684" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,8 +113,14 @@
         <mxCell id="I9Uy7T2hmdNrnqf8XXNY-34" value="&lt;ul&gt;&lt;li&gt;Remove the following directories thus that they will be re-generated on the fly:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;$(HOME)/jib&lt;/li&gt;&lt;li&gt;$(HOME)/mvn/repository/nz/co/spark&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Append the following paths to PATH var:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;$JAVA_HOME/bin&lt;/li&gt;&lt;li&gt;$MAVEN_HOME/bin&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Set MAVEN_OPTS to &#39;-Djib.skip=false&#39;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBorderColor=none;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="520.75" y="630" width="298.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="I9Uy7T2hmdNrnqf8XXNY-36" value="&lt;ul&gt;&lt;li&gt;Download secure file from ADO Library&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="561.5" y="810" width="217" height="60" as="geometry" />
+        <mxCell id="I9Uy7T2hmdNrnqf8XXNY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I9Uy7T2hmdNrnqf8XXNY-36" target="I9Uy7T2hmdNrnqf8XXNY-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9Uy7T2hmdNrnqf8XXNY-36" value="&lt;ul&gt;&lt;li&gt;Download secure file from ADO Library&lt;/li&gt;&lt;li&gt;Use &#39;oc login&#39; to login to the following OpenShift cluster:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;m.reg.ocp.internal.spark.co.nz:8443&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525.75" y="810" width="288.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I9Uy7T2hmdNrnqf8XXNY-40" value="Use MAVEN to build and push Docker image to Docker registry:&lt;br&gt;&lt;br&gt;mvn&lt;br&gt;$(BUILD_MAVEN_OPT)&lt;br&gt;$MAVEN_OPTS&lt;br&gt;-Dmaven.repo.local=$(MAVEN_REPO_LOCAL)&lt;br&gt;-Djib.baseImageCache=$(JIB_BASEIMAGECACHE)&lt;br&gt;-Djib.allowInsecureRegistries=true&lt;br&gt;-Djib.from.auth.username=$(oc whoami)&lt;br&gt;-Djib.from.auth.password=$(oc whoami -t)&lt;br&gt;-Djib.to.auth.username=$(oc whoami)&lt;br&gt;-Djib.to.auth.password=$(oc whoami -t)&lt;br&gt;-Dsettings.security=$(mvnSecuritySettings.secureFilePath)&lt;br&gt;-Drevision=$(O2_BUILD_REVISION)&lt;br&gt;-DDOCKER_REGISTRY=$(DOCKER_REGISTRY)&lt;br&gt;-DREGISTRY_PROJECT=$(REGISTRY_PROJECT)&lt;br&gt;-f $(Build.SourcesDirectory)/o2/app/support/pom.xml&lt;br&gt;-s $(Build.SourcesDirectory)/o2/settings.xml&lt;br&gt;clean install" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="495" y="950" width="350" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
