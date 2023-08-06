@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T21:24:15.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="LzhuyjbmOUFK0dmtxLC7" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-06T22:26:19.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="yIFxDT1o8HN5LjLXq_ot" version="21.6.6" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
-    <mxGraphModel dx="1026" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="340" y="250" width="880" height="1530" as="geometry" />
         </mxCell>
         <mxCell id="I9Uy7T2hmdNrnqf8XXNY-4" value="Agent Pool" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="70" y="70" width="120" height="340" as="geometry" />
+          <mxGeometry x="1200" y="-190" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="I9Uy7T2hmdNrnqf8XXNY-2" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="100" y="110" width="60" height="80" as="geometry" />
+          <mxGeometry x="1230" y="-150" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="I9Uy7T2hmdNrnqf8XXNY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I9Uy7T2hmdNrnqf8XXNY-5" target="I9Uy7T2hmdNrnqf8XXNY-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -150,6 +150,25 @@
         </mxCell>
         <mxCell id="M1hH3iSiQJ6gfja6X_cT-6" value="Deploy to various env based on which source branch was used for running the pipeline and the values configured for Library vars &#39;XX_SOURCE_BRANCH_XX&#39;.&lt;br&gt;&lt;br&gt;For example, if running &#39;O2 Event Orchestrator Pipeline&#39; on source branch &#39;refs/heads/release/O2_24.02.00&#39;, ADO will compare the source branch name with each of the Library vars which represent each env." style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="495" y="1630" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3DyWkXXqLjukoY6d3-Hp-2" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Stop Applicaiton&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Login to the target cluster, e.g., for o2_dev, it&#39;s&amp;nbsp;&lt;/span&gt;https://api.dev01.okd.internal.spark.co.nz:6443&lt;/li&gt;&lt;li&gt;Delete Pods that of the &#39;Completed&#39; status.&lt;/li&gt;&lt;li&gt;Scale down the size of &#39;Deployment&#39; and &#39;DeploymentConfig&#39; to zero.&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelBorderColor=none;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="390" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3DyWkXXqLjukoY6d3-Hp-3" value="Build stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3DyWkXXqLjukoY6d3-Hp-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.848;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3DyWkXXqLjukoY6d3-Hp-3" target="3DyWkXXqLjukoY6d3-Hp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="210" as="sourcePoint" />
+            <mxPoint x="1140" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="185" />
+              <mxPoint x="1086" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3DyWkXXqLjukoY6d3-Hp-5" value="server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-50" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
