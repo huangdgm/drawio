@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T07:39:39.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="hD-FAHUCTbjjvlj5yFYG" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T07:46:10.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="CU-TIo4w-B1h5xqOUwkN" version="21.8.1" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="2605" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
           <mxGeometry x="-30" y="-217" width="560" height="118" as="geometry" />
         </mxCell>
         <mxCell id="pnTLNQiQa1eDDsCuUcQT-9" value="Deployment" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="594" y="-218" width="620" height="118" as="geometry" />
+          <mxGeometry x="594" y="-218" width="636" height="118" as="geometry" />
         </mxCell>
         <mxCell id="pnTLNQiQa1eDDsCuUcQT-12" value="React Verification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-586" y="261" width="111" height="40" as="geometry" />
@@ -279,20 +279,20 @@
         <mxCell id="tbZR6n8iC67tIHIfruj1-1" value="Stop application" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="624" y="-183.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tbZR6n8iC67tIHIfruj1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tbZR6n8iC67tIHIfruj1-3" target="tbZR6n8iC67tIHIfruj1-5" edge="1">
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbZR6n8iC67tIHIfruj1-3" target="tbZR6n8iC67tIHIfruj1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-3" value="Wait for validation" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="779" y="-183.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tbZR6n8iC67tIHIfruj1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tbZR6n8iC67tIHIfruj1-5" target="tbZR6n8iC67tIHIfruj1-7" edge="1">
+        <mxCell id="tbZR6n8iC67tIHIfruj1-5" value="Send notifications" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="-183.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbZR6n8iC67tIHIfruj1-7" target="tbZR6n8iC67tIHIfruj1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tbZR6n8iC67tIHIfruj1-5" value="Send notifications" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="934" y="-183.25" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-7" value="Code deployment" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1084" y="-183.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="935" y="-183.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-9" value="Stage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-491.5" y="-393" width="78" height="30" as="geometry" />
@@ -466,6 +466,12 @@
               <mxPoint x="820" y="-70" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-7" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" vertex="1" parent="1">
+          <mxGeometry x="1176.97" y="-218" width="40" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-8" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="-217" width="40" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
