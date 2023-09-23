@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T07:46:10.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="CU-TIo4w-B1h5xqOUwkN" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T11:21:20.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="hbRNQoiSrASLUJ5AdG4b" version="21.8.1" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="2605" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -398,8 +398,8 @@
         <mxCell id="I9Uy7T2hmdNrnqf8XXNY-2" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" parent="1" vertex="1">
           <mxGeometry x="500" y="-241" width="40" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="tbZR6n8iC67tIHIfruj1-96" value="Get the list of all the image streams:&lt;br&gt;&lt;br&gt;1. Delete from the oldest deployed image tags (these tags have &#39;-delete&#39; suffix) and keep the count within 10. The deletion includes base tags and&amp;nbsp; &#39;*-delete&#39; tags.&lt;br&gt;2. Delete base tags that are older than xx days." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-33" width="220" height="138" as="geometry" />
+        <mxCell id="tbZR6n8iC67tIHIfruj1-96" value="Get the list of all the image streams:&lt;br&gt;&lt;br&gt;1. Delete the oldest deployed image tags (these tags have &#39;-delete&#39; suffix) and their corresponding base image tags. Keep the count (tags with &#39;-delete&#39;) within 10. E.g.,1.0.0-20230922.3 and&lt;br&gt;1.0.0-20230922.3-delete.&lt;br&gt;&lt;br&gt;2. Delete base tags that are older than xx days. E.g., 1.0.0-20230931.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-74" width="220" height="173" as="geometry" />
         </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-97" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tbZR6n8iC67tIHIfruj1-96" target="pnTLNQiQa1eDDsCuUcQT-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -411,7 +411,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-98" value="Build and push images to image stream:&lt;br&gt;&lt;br&gt;1. Based on which azure pipeline is being ran, a selective list of apps will be built, and the generated images will then be pushed to image steam.&lt;br&gt;2. The generated images will be tagged the value of &#39;O2_BUILD_REVISION&#39;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="275" y="-33" width="220" height="138" as="geometry" />
+          <mxGeometry x="275" y="-74" width="220" height="138" as="geometry" />
         </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-99" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tbZR6n8iC67tIHIfruj1-98" target="pnTLNQiQa1eDDsCuUcQT-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -441,7 +441,7 @@
           <mxGeometry x="714" y="-217" width="40" height="53" as="geometry" />
         </mxCell>
         <mxCell id="83GJAtAwkCfmWXKsnnIR-2" value="If variable &#39;P2P_RELEASE&#39; == &#39;Y&#39;, then delete all the &#39;completed&#39; pods and scale down to zero for all the deployments and deploymentconfigs.&lt;br&gt;&lt;br&gt;In reality, this deployment is never run as &#39;P2P_RELEASE&#39; is set to &#39;N&#39; for all the pipelines.&lt;br&gt;&lt;br&gt;You can find the value for this variable by clicking &#39;edit&#39; pipeline." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="536.75" y="-33" width="220" height="173" as="geometry" />
+          <mxGeometry x="536.75" y="-74" width="220" height="173" as="geometry" />
         </mxCell>
         <mxCell id="83GJAtAwkCfmWXKsnnIR-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="83GJAtAwkCfmWXKsnnIR-2" target="tbZR6n8iC67tIHIfruj1-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -453,7 +453,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="83GJAtAwkCfmWXKsnnIR-4" value="Manual approval the job to run.&lt;br&gt;&lt;br&gt;1. This task is only supported in YAML pipelines and can only be used in an agentless job of a YAML pipeline.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/manual-validation-v0?view=azure-pipelines&quot;&gt;ManualValidation@0 - Manual validation v0 task | Microsoft Learn&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="779" y="-33" width="181" height="129" as="geometry" />
+          <mxGeometry x="779" y="-74" width="181" height="129" as="geometry" />
         </mxCell>
         <mxCell id="83GJAtAwkCfmWXKsnnIR-5" value="Server" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" vertex="1" parent="1">
           <mxGeometry x="870" y="-217" width="40" height="53" as="geometry" />
@@ -472,6 +472,9 @@
         </mxCell>
         <mxCell id="83GJAtAwkCfmWXKsnnIR-8" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" vertex="1" parent="1">
           <mxGeometry x="1021" y="-217" width="40" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-11" value="1. Delete old deployed image tags (for the environment being deployed) to ensure the count is within xx. E.g., 1.0.0-20230923.1-int02.&lt;br&gt;&lt;br&gt;2. Retag the base image tag to generate a new tag (with &#39;-&amp;lt;env&amp;gt;&#39; suffix). E.g., 1.0.0-20230924.1-int02.&lt;br&gt;&lt;br&gt;3.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-74" width="210" height="193" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
