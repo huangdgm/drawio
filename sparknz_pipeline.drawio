@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T11:21:20.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="hbRNQoiSrASLUJ5AdG4b" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T11:25:58.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="hKlQD2_K4XzxzVhixPu0" version="21.8.1" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="2605" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -473,8 +473,17 @@
         <mxCell id="83GJAtAwkCfmWXKsnnIR-8" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" vertex="1" parent="1">
           <mxGeometry x="1021" y="-217" width="40" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="83GJAtAwkCfmWXKsnnIR-11" value="1. Delete old deployed image tags (for the environment being deployed) to ensure the count is within xx. E.g., 1.0.0-20230923.1-int02.&lt;br&gt;&lt;br&gt;2. Retag the base image tag to generate a new tag (with &#39;-&amp;lt;env&amp;gt;&#39; suffix). E.g., 1.0.0-20230924.1-int02.&lt;br&gt;&lt;br&gt;3.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="990" y="-74" width="210" height="193" as="geometry" />
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-11" value="1. Delete old deployed image tags (for the environment being deployed) to ensure the count is within xx. E.g., 1.0.0-20230923.1-int02.&lt;br&gt;&lt;br&gt;2. Retag the base image tag to generate a new tag (with &#39;-&amp;lt;env&amp;gt;&#39; suffix). E.g., 1.0.0-20230924.1-int02.&lt;br&gt;&lt;br&gt;3. Delete all the &#39;completed&#39; pods.&lt;br&gt;&lt;br&gt;4. Template/lint/sync using helmfile. The charts to be deployed are selected by the &#39;helmfileSelector&#39; variable." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-74" width="240" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="83GJAtAwkCfmWXKsnnIR-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="83GJAtAwkCfmWXKsnnIR-11" target="tbZR6n8iC67tIHIfruj1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="-70" as="sourcePoint" />
+            <mxPoint x="1360" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="-90" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
