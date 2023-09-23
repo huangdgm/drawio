@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T01:31:57.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="mqKu4IXQlkz4VwBR_0s3" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T01:47:55.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="LRD3VGjwoYu4qbYsXG6W" version="21.8.1" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="2803" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -422,6 +422,18 @@
             <mxPoint x="-30" y="-30" as="targetPoint" />
             <Array as="points">
               <mxPoint x="140" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbZR6n8iC67tIHIfruj1-98" value="Build and push images to image stream:&lt;br&gt;&lt;br&gt;1. Based on which azure pipeline is being ran, a selective list of apps will be built, and the generated images will then be pushed to image steam.&lt;br&gt;2. The generated images will be tagged the value of &#39;O2_BUILD_REVISION&#39;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-33" width="220" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="tbZR6n8iC67tIHIfruj1-99" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbZR6n8iC67tIHIfruj1-98" target="pnTLNQiQa1eDDsCuUcQT-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-40" as="sourcePoint" />
+            <mxPoint x="280" y="-90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="-80" />
             </Array>
           </mxGeometry>
         </mxCell>
