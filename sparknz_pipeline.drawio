@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T11:30:55.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="hMC8u8wM0Lyrq_koh4xt" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T03:41:56.254Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40" etag="p1Nh0feCGwXnpvrenu5V" version="21.8.2" type="github">
   <diagram name="Page-1" id="vr03KfxtmkKFMguLnpdO">
-    <mxGraphModel dx="4161" dy="2558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2867" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -392,7 +392,7 @@
         <mxCell id="I9Uy7T2hmdNrnqf8XXNY-2" value="Telco Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.166666666666629;" parent="1" vertex="1">
           <mxGeometry x="-30" y="-941" width="40" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="tbZR6n8iC67tIHIfruj1-96" value="Get the list of all the image streams:&lt;br&gt;&lt;br&gt;1. Delete the oldest deployed image tags (these tags have &#39;-delete&#39; suffix) and their corresponding base image tags. Keep the count (tags with &#39;-delete&#39;) within 10. E.g.,1.0.0-20230922.3 and&lt;br&gt;1.0.0-20230922.3-delete.&lt;br&gt;&lt;br&gt;2. Delete base tags that are older than xx days. E.g., 1.0.0-20230931.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="tbZR6n8iC67tIHIfruj1-96" value="Get the list of all the image streams:&lt;br&gt;&lt;br&gt;1. Delete the oldest deployed image tags (the tags that have &#39;-delete&#39; suffix) and their corresponding base image tags. Keep the count (tags with &#39;-delete&#39;) within 10. E.g.,1.0.0-20230922.3 and&lt;br&gt;1.0.0-20230922.3-delete.&lt;br&gt;&lt;br&gt;2. Delete base tags that are older than xx days. E.g., 1.0.0-20230931.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-500" y="-774" width="220" height="173" as="geometry" />
         </mxCell>
         <mxCell id="tbZR6n8iC67tIHIfruj1-97" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tbZR6n8iC67tIHIfruj1-96" target="pnTLNQiQa1eDDsCuUcQT-18" edge="1">
@@ -479,7 +479,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aO8_xnCWi6lcOBbGBXjG-1" value="How does &#39;P2P_RELEASE&#39; use for?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="aO8_xnCWi6lcOBbGBXjG-1" value="How does &#39;P2P_RELEASE&#39; use for?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="110" y="-560" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
