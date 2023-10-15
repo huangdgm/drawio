@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T21:01:17.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="1SeDlD5ahv_KWnRYt28n" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T21:06:17.505Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="Uj_81-EJInB1C0jvDTD6" version="22.0.4" type="github">
   <diagram name="Page-1" id="PrLraV4nolaUie2tSP1I">
     <mxGraphModel dx="2327" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,12 +273,24 @@
         <mxCell id="1Q2wvnWdAWVF9PDVe3Z6-58" value="&lt;h1&gt;High-level architecture&lt;/h1&gt;&lt;p&gt;How each component fit together&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-120" y="200" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1Q2wvnWdAWVF9PDVe3Z6-59" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.181;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Q2wvnWdAWVF9PDVe3Z6-2" target="1Q2wvnWdAWVF9PDVe3Z6-58">
+        <mxCell id="1Q2wvnWdAWVF9PDVe3Z6-59" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.181;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Q2wvnWdAWVF9PDVe3Z6-2" target="1Q2wvnWdAWVF9PDVe3Z6-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-270" y="90" as="sourcePoint" />
             <mxPoint x="-220" y="40" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-130" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Q2wvnWdAWVF9PDVe3Z6-60" value="&lt;h1&gt;Demo&lt;/h1&gt;&lt;div&gt;Access Grafana console&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;View Dashboards&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Creating data sources&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Setting up alerts&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Deploy Grafana instance&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-30" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q2wvnWdAWVF9PDVe3Z6-61" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Q2wvnWdAWVF9PDVe3Z6-58" target="1Q2wvnWdAWVF9PDVe3Z6-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="221.77999999999997" y="40" as="sourcePoint" />
+            <mxPoint x="248.77999999999997" y="259" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
