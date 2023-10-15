@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T20:38:07.122Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" version="22.0.4" etag="EwS9kf6uO_rBjIs0KlXL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T20:39:45.003Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="Yu4_ankk1KrisTGp_eY5" version="22.0.4" type="github">
   <diagram name="Page-1" id="PrLraV4nolaUie2tSP1I">
-    <mxGraphModel>
+    <mxGraphModel dx="1213" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1Q2wvnWdAWVF9PDVe3Z6-2" value="&lt;h1&gt;Agenda&lt;/h1&gt;&lt;ol style=&quot;margin-bottom: 0cm; padding-inline-start: 2.5em; caret-color: rgb(0, 0, 0); margin-top: 0cm; font-size: 16px; font-family: Calibri;&quot; type=&quot;1&quot; start=&quot;1&quot;&gt;&lt;li style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoListParagraph&quot;&gt;High level architectural overview ~10mins&lt;/li&gt;&lt;li style=&quot;margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;&quot; class=&quot;MsoListParagraph&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Demo on how Grafana/Prometheus can be leveraged for our daily work. ~20mins&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="390" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
