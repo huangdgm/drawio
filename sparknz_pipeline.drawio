@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T04:49:50.194Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="_zdJZSdaPn30jr_s0hPs" version="22.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-20T05:25:53.544Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="TtsJ35R77WizvP7iG0iX" version="22.0.5" type="github" pages="2">
   <diagram name="Build &amp; Deploy" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,7 +486,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TIKFHuZeNHoMTK1IQo40" name="Page-2">
-    <mxGraphModel dx="819" dy="1610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="556" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,7 +511,7 @@
         <mxCell id="r1lWxYHDyj2_XvI72be6-3" value="Post-deployment&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Once the pipeline completes, go check if all the Pods are up &amp;amp; running. - either go to OpenShift console to check this or use OC command line.&lt;/li&gt;&lt;li&gt;If all the Pods are up &amp;amp; running, send&amp;nbsp;Checkpoint #2 email.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Notify the testers to verify the deployment.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If sanity check passes, then s&lt;/span&gt;end Checkpoint #3 email.&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="590" width="450" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="r1lWxYHDyj2_XvI72be6-5" value="Send script to DBA to run&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;EOC Order Care PRD Rel. 24.04.05 SQL scripts&amp;nbsp; &amp;nbsp;- Thursday 19th October 13:00HRS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="r1lWxYHDyj2_XvI72be6-5" value="Send an email to DBA to request running of scripts&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;EOC Order Care PRD Rel. 24.04.05 SQL scripts&amp;nbsp; &amp;nbsp;- Thursday 19th October 13:00HRS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Attach all the scripts to run, as well as the approval email from Konrad Lilly.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="750" y="190" width="370" height="170" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-6" value="Get email approval from Konrad Lilly.&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;CHG001113785 EOC Order Care weekly Release 24.04.05 - 19th October 13:00HRS&amp;nbsp; PBI 2579338&amp;nbsp; &amp;nbsp;PBI 2575090&amp;nbsp; &amp;nbsp; PBI 2579518&amp;nbsp; &amp;nbsp; PBI 2565891&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" vertex="1" parent="1">
