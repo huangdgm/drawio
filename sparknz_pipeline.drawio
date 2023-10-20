@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T04:16:36.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="9Dwc80qNCcr6bxGsY1Et" version="22.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-20T04:22:34.017Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="oCWG8ola-6xF7TysqhzG" version="22.0.5" type="github" pages="2">
   <diagram name="Build &amp; Deploy" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,18 +486,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TIKFHuZeNHoMTK1IQo40" name="Page-2">
-    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ShIPjAhJlmpMevSSvWxP-1" value="Change Request&lt;br&gt;&lt;br&gt;Create a change request&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Raise the CR on the day?&lt;/li&gt;&lt;li&gt;Get it approved before the commencement of the deployment.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="110" y="80" width="220" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ShIPjAhJlmpMevSSvWxP-2" value="Release info:&lt;br&gt;Release number: 24.04.04" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="190" width="200" height="60" as="geometry" />
+        <mxCell id="ShIPjAhJlmpMevSSvWxP-2" value="Release info:&lt;br&gt;Release number: 24.04.04" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="190" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ShIPjAhJlmpMevSSvWxP-3" value="Send notification email&lt;br&gt;&lt;br&gt;1. Checkpoint #1&lt;br&gt;2. Checkpoint #2&lt;br&gt;3. Checkpoint #3&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Template email: CHG001114130 O2 EO Weekly Release 24.04.04&lt;/li&gt;&lt;li&gt;Send notification email right before the commencement of the deployment - usually within 30 mins.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="ShIPjAhJlmpMevSSvWxP-3" value="Send Checkpoint #1 notification email&lt;br&gt;&lt;ul&gt;&lt;li&gt;Template email: CHG001114130 O2 EO Weekly Release 24.04.04&lt;/li&gt;&lt;li&gt;Send notification email right before the commencement of the deployment - usually within 30 mins.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="360" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r1lWxYHDyj2_XvI72be6-1" value="Backfill&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Get the backfill list.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="r1lWxYHDyj2_XvI72be6-2" value="Deployment&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Make sure the Docker image is there.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;(Optional) Make sure to change om-core-service configuration.&lt;/li&gt;&lt;li&gt;(Optional) Change the log level.&lt;/li&gt;&lt;li&gt;Once the pipeline completes, go check if all the Pods are up &amp;amp; running. Either go to OpenShift console to check this or use OC command line.&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r1lWxYHDyj2_XvI72be6-3" value="Post-deployment&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Send&amp;nbsp;&lt;/span&gt;Checkpoint #2 email.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Make sure the Docker image is there.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;(Optional) Make sure to change om-core-service configuration.&lt;/li&gt;&lt;li&gt;(Optional) Change the log level.&lt;/li&gt;&lt;li&gt;Once the pipeline completes, go check if all the Pods are up &amp;amp; running. Either go to OpenShift console to check this or use OC command line.&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="450" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
