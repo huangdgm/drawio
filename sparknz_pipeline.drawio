@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T05:23:03.135Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="p0gdWuhMTSpUxd-yx9oo" version="22.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-24T05:28:47.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="4_FXN9towPoeyTyd9r68" version="22.0.6" type="github" pages="2">
   <diagram name="Build &amp; Deploy" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
           <mxGeometry x="80" y="-40" width="390" height="250" as="geometry" />
         </mxCell>
         <mxCell id="ShIPjAhJlmpMevSSvWxP-2" value="Release info:&lt;br&gt;Release number: 24.04.04" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="610" y="-120" width="200" height="60" as="geometry" />
+          <mxGeometry x="620" y="-150" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ShIPjAhJlmpMevSSvWxP-3" value="Send Checkpoint #1 notification email&lt;br&gt;&lt;ul&gt;&lt;li&gt;Template email&lt;/li&gt;&lt;ul&gt;&lt;li&gt;For O2, refer to CHG001114130 O2 EO Weekly Release 24.04.04&lt;/li&gt;&lt;li&gt;For EOC, refer to&amp;nbsp;CHG001113785&amp;nbsp; EOC Order Care weekly Release 24.04.05 - 19th October&amp;nbsp; 13:00HRS&amp;nbsp; PBI 2579338&amp;nbsp; &amp;nbsp;PBI 2575090&amp;nbsp; &amp;nbsp; PBI 2579518&amp;nbsp; &amp;nbsp; PBI 2565891&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Only send notification when you have got the CR approved, because you have to include the CR in the email.&lt;/li&gt;&lt;li&gt;Send notification email right before the commencement of the deployment - usually within 30 mins.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="310" width="450" height="170" as="geometry" />
@@ -512,18 +512,18 @@
           <mxGeometry x="190" y="680" width="450" height="190" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-5" value="Send an email to DBA to request running of scripts&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;EOC Order Care PRD Rel. 24.04.05 SQL scripts&amp;nbsp; &amp;nbsp;- Thursday 19th October 13:00HRS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Attach all the scripts to run, as well as the approval email from Konrad Lilly.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="730" y="270" width="370" height="170" as="geometry" />
+          <mxGeometry x="690" y="320" width="370" height="170" as="geometry" />
         </mxCell>
         <mxCell id="_dATJxqDl7XRJbuB5n8p-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r1lWxYHDyj2_XvI72be6-6" target="_dATJxqDl7XRJbuB5n8p-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-6" value="Write an email to the Triage team to seek approval, usually Konrad Lilly will take care of the approval.&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;CHG001113785 EOC Order Care weekly Release 24.04.05 - 19th October 13:00HRS&amp;nbsp; PBI 2579338&amp;nbsp; &amp;nbsp;PBI 2575090&amp;nbsp; &amp;nbsp; PBI 2579518&amp;nbsp; &amp;nbsp; PBI 2565891&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="570" y="-30" width="370" height="170" as="geometry" />
+          <mxGeometry x="560" y="-60" width="370" height="170" as="geometry" />
         </mxCell>
         <mxCell id="_dATJxqDl7XRJbuB5n8p-1" value="Approval email received from Triage team." style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-30" width="370" height="170" as="geometry" />
+          <mxGeometry x="1000" y="-50" width="370" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="_dATJxqDl7XRJbuB5n8p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;elbow=vertical;curved=1;" edge="1" parent="1" source="_dATJxqDl7XRJbuB5n8p-1" target="ShIPjAhJlmpMevSSvWxP-3">
+        <mxCell id="_dATJxqDl7XRJbuB5n8p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;elbow=vertical;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dATJxqDl7XRJbuB5n8p-1" target="_dATJxqDl7XRJbuB5n8p-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="814.75" y="229.5" as="sourcePoint" />
             <mxPoint x="914.75" y="199.5" as="targetPoint" />
@@ -550,6 +550,15 @@
         <mxCell id="_dATJxqDl7XRJbuB5n8p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;curved=1;" edge="1" parent="1" source="r1lWxYHDyj2_XvI72be6-3" target="r1lWxYHDyj2_XvI72be6-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="925" y="450" as="sourcePoint" />
+            <mxPoint x="853" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dATJxqDl7XRJbuB5n8p-14" value="Deploy to NPE environment and let tester know so that they can validate the changes.&lt;br&gt;&lt;br&gt;For weekly/ECR releases, deploy to INT02.&lt;br&gt;For major releases, deploy to INT03.&lt;br&gt;&lt;br&gt;Once the validation passes, proceed to the next step." style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="180" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_dATJxqDl7XRJbuB5n8p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;elbow=vertical;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dATJxqDl7XRJbuB5n8p-14" target="ShIPjAhJlmpMevSSvWxP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="470" as="sourcePoint" />
             <mxPoint x="853" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
