@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T00:15:18.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="PGWKuG9mcF7nCEJvXDQ8" version="22.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-25T02:40:02.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="jU21dKt26odZy7ZuhZO3" version="22.0.7" type="github" pages="2">
   <diagram name="Build &amp; Deploy" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,33 +486,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TIKFHuZeNHoMTK1IQo40" name="Page-2">
-    <mxGraphModel dx="1434" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3585" dy="3097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ShIPjAhJlmpMevSSvWxP-1" value="Change Request&lt;br&gt;&lt;br&gt;Create a change request&lt;br&gt;&lt;ul&gt;&lt;li&gt;Raise the CR ahead of time.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;What is perfect time for raising the CR?&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;Note:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;There would be multiple CRs which require the deployments to Prod. In this case you will need to deploy one after another.&lt;/li&gt;&lt;li&gt;You can raise a single CR for deployments to both EOC and O2 - you do not need to raise two separate CRs for each.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="80" y="-40" width="390" height="250" as="geometry" />
+          <mxGeometry x="40" y="-290" width="390" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ShIPjAhJlmpMevSSvWxP-2" value="Release info:&lt;br&gt;Release number: 24.04.04" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-150" width="200" height="60" as="geometry" />
+          <mxGeometry x="660" y="-420" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ShIPjAhJlmpMevSSvWxP-3" value="Send Checkpoint #1 notification email&lt;br&gt;&lt;ul&gt;&lt;li&gt;Template email&lt;/li&gt;&lt;ul&gt;&lt;li&gt;For O2, refer to CHG001114130 O2 EO Weekly Release 24.04.04&lt;/li&gt;&lt;li&gt;For EOC, refer to&amp;nbsp;CHG001113785&amp;nbsp; EOC Order Care weekly Release 24.04.05 - 19th October&amp;nbsp; 13:00HRS&amp;nbsp; PBI 2579338&amp;nbsp; &amp;nbsp;PBI 2575090&amp;nbsp; &amp;nbsp; PBI 2579518&amp;nbsp; &amp;nbsp; PBI 2565891&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Only send notification when you have got the CR approved, because you have to include the CR in the email.&lt;/li&gt;&lt;li&gt;Send notification email right before the commencement of the deployment - usually within 30 mins.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="310" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-1" value="Backfill&lt;br&gt;&lt;ul&gt;&lt;li&gt;Get the backfill list which includes all the branches to be backfilled.&lt;/li&gt;&lt;li&gt;Merge the source branch to all the destination branches.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Notify developers to resolve conflicts if any.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;On all the NPE environments, manually approve which will trigger the deployments.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Exception: Do not deploy on NFT if NFT drop has been started.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="720" y="730" width="446" height="130" as="geometry" />
+          <mxGeometry x="692" y="800" width="446" height="130" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-2" value="Deployment&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Make sure the Docker image is there.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;(Optional) Make sure to change om-core-service configuration.&lt;/li&gt;&lt;li&gt;(Optional) Change the log level.&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="730" y="560" width="450" height="110" as="geometry" />
+          <mxGeometry x="670" y="580" width="450" height="110" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-3" value="Post-deployment&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Once the pipeline completes, go check if all the Pods are up &amp;amp; running. - either go to OpenShift console to check this or use OC command line.&lt;/li&gt;&lt;li&gt;If all the Pods are up &amp;amp; running, send&amp;nbsp;Checkpoint #2 email.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Notify the testers to verify the deployment.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If sanity check passes, then s&lt;/span&gt;end Checkpoint #3 email.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Note:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;If this is a NFT drop 2 deployment, post deployment we have to login to Camunda Cockpit to manually clean up all the unfinished orders for om-*-engine.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="620" width="450" height="190" as="geometry" />
+          <mxGeometry x="170" y="670" width="450" height="190" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-5" value="Send an email to DBA to request running of scripts&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;EOC Order Care PRD Rel. 24.04.05 SQL scripts&amp;nbsp; &amp;nbsp;- Thursday 19th October 13:00HRS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Attach all the scripts to run, as well as the approval email from Konrad Lilly.&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="690" y="320" width="370" height="170" as="geometry" />
+          <mxGeometry x="730" y="330" width="370" height="170" as="geometry" />
         </mxCell>
         <mxCell id="r1lWxYHDyj2_XvI72be6-6" value="Write an email to the Triage team to seek approval, usually Konrad Lilly will take care of the approval.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Get it approved before the commencement of the deployment.&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Email template&lt;/li&gt;&lt;ul&gt;&lt;li&gt;CHG001113785 EOC Order Care weekly Release 24.04.05 - 19th October 13:00HRS&amp;nbsp; PBI 2579338&amp;nbsp; &amp;nbsp;PBI 2575090&amp;nbsp; &amp;nbsp; PBI 2579518&amp;nbsp; &amp;nbsp; PBI 2565891&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Refer to email:&amp;nbsp;Approval for CR - CHG001114514 Weekly O2/EOC release 24.04.10&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;Note: Only after the validation passes can we proceed to this stage.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" width="370" height="190" as="geometry" />
+          <mxGeometry x="1040" y="-30" width="370" height="190" as="geometry" />
         </mxCell>
         <mxCell id="_dATJxqDl7XRJbuB5n8p-1" value="Approval email received from Triage team." style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="700" y="190" width="260" height="70" as="geometry" />
@@ -542,7 +542,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_dATJxqDl7XRJbuB5n8p-14" value="Deploy to NPE environment and let tester know so that they can validate the changes.&lt;br&gt;&lt;br&gt;For weekly/ECR releases, deploy to INT02.&lt;br&gt;For major releases, deploy to INT03.&lt;br&gt;&lt;br&gt;Once the validation passes, proceed to the next step.&lt;br&gt;&lt;br&gt;Note: The cut-off day is usually around noon the day before the release day." style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="590" y="-30" width="370" height="170" as="geometry" />
+          <mxGeometry x="580" y="-50" width="370" height="170" as="geometry" />
         </mxCell>
         <mxCell id="_dATJxqDl7XRJbuB5n8p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_dATJxqDl7XRJbuB5n8p-1" target="ShIPjAhJlmpMevSSvWxP-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -555,6 +555,7 @@
             <mxPoint x="450" y="-70" as="sourcePoint" />
             <mxPoint x="500" y="-120" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="470" y="-40" />
               <mxPoint x="550" y="40" />
             </Array>
           </mxGeometry>
@@ -575,6 +576,81 @@
             <Array as="points">
               <mxPoint x="1090" y="250" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-7" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="310" width="880" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-7">
+          <mxGeometry width="880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-24" value="Platform" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-23">
+          <mxGeometry width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-25" value="Description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-23">
+          <mxGeometry x="130" width="630" height="40" as="geometry">
+            <mxRectangle width="630" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-26" value="Namespace" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-23">
+          <mxGeometry x="760" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-7">
+          <mxGeometry y="40" width="880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-20" value="EOC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-8">
+          <mxGeometry width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-10" value="https://dev.azure.com/sparknz/Spark/_releaseProgress?_a=release-pipeline-progress&amp;amp;releaseId=159803" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-8">
+          <mxGeometry x="130" width="630" height="40" as="geometry">
+            <mxRectangle width="630" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-11" value="OM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-8">
+          <mxGeometry x="760" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-7">
+          <mxGeometry y="80" width="880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-21" value="O2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-12">
+          <mxGeometry width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-14" value="24.04.10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-12">
+          <mxGeometry x="130" width="630" height="40" as="geometry">
+            <mxRectangle width="630" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-15" value="Common" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-12">
+          <mxGeometry x="760" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-7">
+          <mxGeometry y="120" width="880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-22" value="O2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-16">
+          <mxGeometry width="130" height="40" as="geometry">
+            <mxRectangle width="130" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-18" value="24.04.10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-16">
+          <mxGeometry x="130" width="630" height="40" as="geometry">
+            <mxRectangle width="630" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1_wO5nd8dDfyaNmD-Tr-19" value="OM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-16">
+          <mxGeometry x="760" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
