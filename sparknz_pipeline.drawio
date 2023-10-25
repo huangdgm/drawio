@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T00:14:42.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="NH1XAC753OJ_8bQZdavL" version="22.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-25T00:15:18.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="PGWKuG9mcF7nCEJvXDQ8" version="22.0.7" type="github" pages="2">
   <diagram name="Build &amp; Deploy" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -541,7 +541,7 @@
             <mxPoint x="853" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_dATJxqDl7XRJbuB5n8p-14" value="Deploy to NPE environment and let tester know so that they can validate the changes.&lt;br&gt;&lt;br&gt;For weekly/ECR releases, deploy to INT02.&lt;br&gt;For major releases, deploy to INT03.&lt;br&gt;&lt;br&gt;Once the validation passes, proceed to the next step." style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
+        <mxCell id="_dATJxqDl7XRJbuB5n8p-14" value="Deploy to NPE environment and let tester know so that they can validate the changes.&lt;br&gt;&lt;br&gt;For weekly/ECR releases, deploy to INT02.&lt;br&gt;For major releases, deploy to INT03.&lt;br&gt;&lt;br&gt;Once the validation passes, proceed to the next step.&lt;br&gt;&lt;br&gt;Note: The cut-off day is usually around noon the day before the release day." style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="590" y="-30" width="370" height="170" as="geometry" />
         </mxCell>
         <mxCell id="_dATJxqDl7XRJbuB5n8p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_dATJxqDl7XRJbuB5n8p-1" target="ShIPjAhJlmpMevSSvWxP-3" edge="1">
