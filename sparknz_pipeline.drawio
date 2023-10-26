@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T23:16:37.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="GqLNKNUNIIt1jK8Gq7_h" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-26T03:29:35.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="h7Rz5ybuk72ir_YNE21M" version="22.0.8" type="github" pages="2">
   <diagram name="Build &amp; Deploy" id="vr03KfxtmkKFMguLnpdO">
     <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,7 +486,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TIKFHuZeNHoMTK1IQo40" name="Page-2">
-    <mxGraphModel dx="3088" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2627" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -541,8 +541,8 @@
         <mxCell id="a1_wO5nd8dDfyaNmD-Tr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="a1_wO5nd8dDfyaNmD-Tr-30" source="r1lWxYHDyj2_XvI72be6-3" target="r1lWxYHDyj2_XvI72be6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r1lWxYHDyj2_XvI72be6-3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 16px; background-color: initial;&quot;&gt;Validate all Pods up &amp;amp; running, send notification email&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Once the pipeline completes, go check if all the Pods are up &amp;amp; running. - either go to OpenShift console to check this or use OC command line.&lt;/li&gt;&lt;li&gt;If all the Pods are up &amp;amp; running, send&amp;nbsp;Checkpoint #2 email.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Notify the testers to verify the deployment.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If sanity check passes, then s&lt;/span&gt;end Checkpoint #3 email.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Note:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;If this is a NFT drop 2 deployment, post deployment we have to login to Camunda Cockpit to manually clean up all the unfinished orders for om-*-engine.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="a1_wO5nd8dDfyaNmD-Tr-30" vertex="1">
-          <mxGeometry x="210" y="140" width="450" height="200" as="geometry" />
+        <mxCell id="r1lWxYHDyj2_XvI72be6-3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 16px; background-color: initial;&quot;&gt;Validate all Pods up &amp;amp; running, send notification email&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Once the pipeline completes, go check if all the Pods are up &amp;amp; running. - either go to OpenShift console to check this or use OC command line.&lt;/li&gt;&lt;li&gt;If all the Pods are up &amp;amp; running, send&amp;nbsp;Checkpoint #2 email.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Notify the testers to verify the deployment.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If sanity check passes, then s&lt;/span&gt;end Checkpoint #3 email.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Note:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;If this is a NFT drop 2 deployment, post deployment we have to login to Camunda Cockpit to manually clean up all the unfinished orders for om-*-engine.&lt;/li&gt;&lt;li&gt;If changes are manually made to om-core-service or log level, you have to validate these as well.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;arcSize=0;" parent="a1_wO5nd8dDfyaNmD-Tr-30" vertex="1">
+          <mxGeometry x="210" y="140" width="450" height="230" as="geometry" />
         </mxCell>
         <mxCell id="a1_wO5nd8dDfyaNmD-Tr-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="a1_wO5nd8dDfyaNmD-Tr-30" source="r1lWxYHDyj2_XvI72be6-1" target="a1_wO5nd8dDfyaNmD-Tr-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -588,15 +588,15 @@
             <mxRectangle width="580" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kH6HjJaU51qIMlTeWITT-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="a1_wO5nd8dDfyaNmD-Tr-7">
+        <mxCell id="kH6HjJaU51qIMlTeWITT-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="a1_wO5nd8dDfyaNmD-Tr-7" vertex="1">
           <mxGeometry y="80" width="710" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kH6HjJaU51qIMlTeWITT-2" value="CR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="kH6HjJaU51qIMlTeWITT-1">
+        <mxCell id="kH6HjJaU51qIMlTeWITT-2" value="CR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="kH6HjJaU51qIMlTeWITT-1" vertex="1">
           <mxGeometry width="130" height="40" as="geometry">
             <mxRectangle width="130" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kH6HjJaU51qIMlTeWITT-3" value="&lt;a href=&quot;https://sparknz.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D262cf806db86791099bb5b51f39619e4%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Drequested_by%253Dfef485131b5be514c0b9cbb9274bcb6a%255EORDERBYpriority&quot;&gt;CHG001114514 | Change Request | ServiceNow (service-now.com)&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="kH6HjJaU51qIMlTeWITT-1">
+        <mxCell id="kH6HjJaU51qIMlTeWITT-3" value="&lt;a href=&quot;https://sparknz.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D262cf806db86791099bb5b51f39619e4%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D1%26sysparm_record_rows%3D1%26sysparm_record_list%3Drequested_by%253Dfef485131b5be514c0b9cbb9274bcb6a%255EORDERBYpriority&quot;&gt;CHG001114514 | Change Request | ServiceNow (service-now.com)&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="kH6HjJaU51qIMlTeWITT-1" vertex="1">
           <mxGeometry x="130" width="580" height="40" as="geometry">
             <mxRectangle width="580" height="40" as="alternateBounds" />
           </mxGeometry>
