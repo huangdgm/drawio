@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="lr-hnGKPuzz-Lm_wOjiD">
-    <mxGraphModel dx="2920" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3354" dy="939" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,9 +47,9 @@
           <mxGeometry x="360" y="380" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-25" value="release/O2_25.08.00" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="625" width="210" height="60" as="geometry" />
+          <mxGeometry x="-499" y="625" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhlH9CoVb2udz1mGkR6u-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhlH9CoVb2udz1mGkR6u-26" target="PhlH9CoVb2udz1mGkR6u-25">
+        <mxCell id="PhlH9CoVb2udz1mGkR6u-30" value="silent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhlH9CoVb2udz1mGkR6u-26" target="PhlH9CoVb2udz1mGkR6u-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-26" value="release/O2_NPM_02.00.00" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -76,11 +76,13 @@
         <mxCell id="PhlH9CoVb2udz1mGkR6u-29" value="Nexus migration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-900" y="895" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhlH9CoVb2udz1mGkR6u-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhlH9CoVb2udz1mGkR6u-36" target="PhlH9CoVb2udz1mGkR6u-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PhlH9CoVb2udz1mGkR6u-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhlH9CoVb2udz1mGkR6u-36" target="PhlH9CoVb2udz1mGkR6u-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568" y="526" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-36" value="release/O2_NPM_02.00.00" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="620" width="270" height="60" as="geometry" />
+          <mxGeometry x="450" y="519" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhlH9CoVb2udz1mGkR6u-38" target="PhlH9CoVb2udz1mGkR6u-34">
           <mxGeometry relative="1" as="geometry" />
@@ -157,6 +159,12 @@
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-60" value="ST04" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="882" y="240" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PhlH9CoVb2udz1mGkR6u-61" value="kafka-ui cert fix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="988" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhlH9CoVb2udz1mGkR6u-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.895;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PhlH9CoVb2udz1mGkR6u-61" target="PhlH9CoVb2udz1mGkR6u-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
