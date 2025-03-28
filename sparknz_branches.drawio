@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="lr-hnGKPuzz-Lm_wOjiD">
-    <mxGraphModel dx="2680" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4046" dy="1413" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="PhlH9CoVb2udz1mGkR6u-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;" parent="1" source="PhlH9CoVb2udz1mGkR6u-20" target="PhlH9CoVb2udz1mGkR6u-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PhlH9CoVb2udz1mGkR6u-20" value="release/O2_WIX_PHASE2_01.00.00 ?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="PhlH9CoVb2udz1mGkR6u-20" value="release/O2_WIX_PHASE2_01.00.00" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="484" y="771" width="353" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-21" value="release/O2_25.10.00" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
@@ -79,13 +79,13 @@
         <mxCell id="PhlH9CoVb2udz1mGkR6u-29" value="Nexus migration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-967" y="896" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhlH9CoVb2udz1mGkR6u-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="PhlH9CoVb2udz1mGkR6u-36" target="PhlH9CoVb2udz1mGkR6u-21" edge="1">
+        <mxCell id="PhlH9CoVb2udz1mGkR6u-35" value="postponed to independent release" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="PhlH9CoVb2udz1mGkR6u-36" target="PhlH9CoVb2udz1mGkR6u-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="655" y="677" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-36" value="release/O2_NPM_02.00.00" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="537" y="670" width="270" height="60" as="geometry" />
+          <mxGeometry x="565" y="591" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="PhlH9CoVb2udz1mGkR6u-38" target="PhlH9CoVb2udz1mGkR6u-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
