@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="lr-hnGKPuzz-Lm_wOjiD">
-    <mxGraphModel dx="4046" dy="1413" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3623" dy="895" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,6 +124,11 @@
             <mxPoint x="977" y="961" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="phc8ArdFrZL1-UtjKnC6-4" value="NO GO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhlH9CoVb2udz1mGkR6u-49">
+          <mxGeometry x="-0.0253" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-48" value="release/O2_FIXED_WIRELESS_B2B_01.00.00 ?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="427" y="901" width="461" height="60" as="geometry" />
         </mxCell>
@@ -145,7 +150,7 @@
           <mxGeometry x="1078" y="725" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-55" value="release/O2_25.11.00" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="937" y="901" width="210" height="60" as="geometry" />
+          <mxGeometry x="1032" y="901" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-56" value="Jun" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1077" y="854" width="61" height="61" as="geometry" />
@@ -167,6 +172,20 @@
         </mxCell>
         <mxCell id="PhlH9CoVb2udz1mGkR6u-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.895;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" parent="1" source="PhlH9CoVb2udz1mGkR6u-61" target="PhlH9CoVb2udz1mGkR6u-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phc8ArdFrZL1-UtjKnC6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="phc8ArdFrZL1-UtjKnC6-3" target="PhlH9CoVb2udz1mGkR6u-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phc8ArdFrZL1-UtjKnC6-3" value="&lt;a style=&quot;box-sizing: border-box; border-radius: 2px; cursor: pointer; outline: transparent; transition: color 80ms cubic-bezier(0.165, 0.84, 0.44, 1), background 80ms linear; font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, &amp;quot;system-ui&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; white-space: pre; background-color: rgb(255, 255, 255);&quot; tabindex=&quot;0&quot; href=&quot;https://dev.azure.com/sparknz/Spark/_workitems/edit/3115550&quot; class=&quot;bolt-link&quot;&gt;Feature 3115550&lt;/a&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, &amp;quot;system-ui&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;: 5G | Mobile Core changes to support Provisioning of 5G Services onto new CCDM platform&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="1074" width="732" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="phc8ArdFrZL1-UtjKnC6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="phc8ArdFrZL1-UtjKnC6-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1084.0588235294117" y="962.6470588235295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phc8ArdFrZL1-UtjKnC6-6" value="TFF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="775" y="989" width="113" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
