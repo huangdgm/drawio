@@ -178,7 +178,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q8KQsrVRR6K_fsi1AFCc" name="Page-2">
-    <mxGraphModel dx="2503" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1589" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,8 +260,8 @@
         <mxCell id="b2gUOs76T7WgLeAgZUsB-40" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Data refresh should exclude the config table such as cfg_generic_vas&lt;br&gt;Prod table will have real Prod config, which we don&#39;t want to use in NPE env. that&#39;s why it&#39;s excluded. Instead we want to populate it with test configs.&lt;/blockquote&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-410" y="800" width="350" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="b2gUOs76T7WgLeAgZUsB-42" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Data refresh should exclude the config table such as cfg_generic_vas&lt;br&gt;Prod table will have real Prod config, which we don&#39;t want to use in NPE env. that&#39;s why it&#39;s excluded. Instead we want to populate it with test configs.&lt;/blockquote&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-410" y="920" width="350" height="102" as="geometry" />
+        <mxCell id="b2gUOs76T7WgLeAgZUsB-42" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;https://sparknz.atlassian.net/wiki/spaces/EA1/pages/11087970940/Backfills+and+Data+Refreshes&lt;/blockquote&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-410" y="956" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
