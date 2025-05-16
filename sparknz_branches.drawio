@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.14" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.14" pages="3">
   <diagram name="branching" id="lr-hnGKPuzz-Lm_wOjiD">
-    <mxGraphModel dx="3939" dy="1191" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,6 +361,52 @@
         </mxCell>
         <mxCell id="b2gUOs76T7WgLeAgZUsB-89" value="Delphix DB for PostgreSQL" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-580" y="240" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AoXxHyxsP63Q1K1LbaH8" name="Page-3">
+    <mxGraphModel dx="970" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-8" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="330" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-1" value="MDR&lt;div&gt;current: version 2.13&lt;/div&gt;&lt;div&gt;target: version 2.18&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-2" value="PAK&lt;div&gt;current: version 2.13&lt;/div&gt;&lt;div&gt;target: version 2.18&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LTt9KYY-jdFchV-l3tRC-3" target="LTt9KYY-jdFchV-l3tRC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LTt9KYY-jdFchV-l3tRC-3" target="LTt9KYY-jdFchV-l3tRC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-3" value="DNS&lt;div&gt;Load balancer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LTt9KYY-jdFchV-l3tRC-6" target="LTt9KYY-jdFchV-l3tRC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="LTt9KYY-jdFchV-l3tRC-6" target="LTt9KYY-jdFchV-l3tRC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-6" value="O2 apps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-9" value="EDA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;MDR:&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;token.eda.clientId=04e8e950-135b-11f0-b479-ef6019553426&lt;br&gt;token.eda.clientSecret=a3f3323f-c770-4df7-9b58-95e2e30c75a2&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;PAK:&lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;token.eda.clientId=&lt;span style=&quot;caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-family: Aptos, sans-serif; font-size: 14.6667px; white-space-collapse: collapse;&quot;&gt;b2ae9100-1358-11f0-a3d5-d30808128181&lt;/span&gt;&lt;br&gt;token.eda.clientSecret=da963b9f-d206-430b-b880-5b3b8fe941dc&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" link="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;token.eda.clientId=04e8e950-135b-11f0-b479-ef6019553426&lt;br&gt;token.eda.clientSecret=a3f3323f-c770-4df7-9b58-95e2e30c75a2&lt;/pre&gt;&lt;/div&gt;" id="LTt9KYY-jdFchV-l3tRC-11">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="140" y="420" width="500" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LTt9KYY-jdFchV-l3tRC-12" value="Phase 1 (after next Wed)&lt;div&gt;&amp;nbsp; &amp;nbsp; O2: repoint from MDR to DNS LB &amp;amp; Update ID/Secret to use PAK&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; EDA: switch from MDR to PAK&lt;br&gt;&lt;div&gt;Phase 2 (next Month):&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; O2: Update ID/Secret&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; EDA: Upgrade from version 2.13 to 2.18&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" width="380" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
