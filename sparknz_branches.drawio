@@ -411,10 +411,10 @@
           </mxCell>
         </UserObject>
         <mxCell id="aldJWcY6TxQIektb4E-C-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MDR endpoints&lt;/h1&gt;&lt;p&gt;http://prov2-eda2prd1.mdrcm.ocp.internal.spark.co.nz/CAI3G1.2/services/CAI3G1.2&lt;/p&gt;&lt;p&gt;https://prov-eda2prd1.mdrcm.ocp.internal.spark.co.nz:443/aapi/v1/pcrf-pcf&lt;/p&gt;&lt;p&gt;https://oam-eda2prd1.mdrcm.ocp.internal.spark.co.nz/oauth/v1&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="512" y="-218" width="454" height="120" as="geometry" />
+          <mxGeometry x="495" y="-264" width="454" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aldJWcY6TxQIektb4E-C-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PAK endpoints&lt;/h1&gt;&lt;p&gt;http://prov2-eda2prd2.pakcm.ocp.internal.spark.co.nz/CAI3G1.2/services/CAI3G1.2&lt;/p&gt;&lt;p&gt;https://prov-eda2prd2.pakcm.ocp.internal.spark.co.nz:443/aapi/v1/pcrf-pcf&lt;/p&gt;&lt;p&gt;https://oam-eda2prd2.pakcm.ocp.internal.spark.co.nz/oauth/v1&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="512" y="-89" width="454" height="120" as="geometry" />
+          <mxGeometry x="495" y="-135" width="454" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aldJWcY6TxQIektb4E-C-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aldJWcY6TxQIektb4E-C-7" target="aldJWcY6TxQIektb4E-C-11">
           <mxGeometry relative="1" as="geometry" />
@@ -422,13 +422,11 @@
         <mxCell id="aldJWcY6TxQIektb4E-C-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Next step (proposed)&lt;/h1&gt;&lt;p&gt;For CAI3G, repoint from MDR to DNS.&lt;/p&gt;&lt;p&gt;For PCRF/OAM, repoint from MDR to PAK (eventually have to use DNS)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="-242" width="401" height="120" as="geometry" />
         </mxCell>
-        <UserObject label="http://eda2mobileprd-trf.telecom.tcnz.net:8080/CAI3G1.2/services/CAI3G1.2" link="http://eda2mobileprd-trf.telecom.tcnz.net:8080/CAI3G1.2/services/CAI3G1.2" id="aldJWcY6TxQIektb4E-C-9">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
-            <mxGeometry x="377.99999999999994" y="157.00000000000009" width="432" height="36" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="aldJWcY6TxQIektb4E-C-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Future plan&lt;/h1&gt;&lt;p&gt;O2 side: Update ID/Secret to use newly-generated one provided by EDA, and repoint PCRF/OAM from PAK to DNS&lt;/p&gt;&lt;p&gt;EDA side: EDA cluster upgrade from version 2.13 to 2.18, and config DNS to fully leverage MDR &amp;amp; PAK&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="-86" width="401" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aldJWcY6TxQIektb4E-C-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DNS endpoints&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;http://eda2mobileprd-trf.telecom.tcnz.net:8080/CAI3G1.2/services/CAI3G1.2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;pcrf?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;oam?&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1" width="454" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
