@@ -368,7 +368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AoXxHyxsP63Q1K1LbaH8" name="Page-3">
-    <mxGraphModel dx="1006" dy="1693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1796" dy="2105" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,8 +422,8 @@
         <mxCell id="aldJWcY6TxQIektb4E-C-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Next step (proposed)&lt;/h1&gt;&lt;p&gt;For CAI3G, repoint from MDR to DNS.&lt;/p&gt;&lt;p&gt;For PCRF/OAM, repoint from MDR to PAK (eventually have to use DNS)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="-242" width="401" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aldJWcY6TxQIektb4E-C-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Future plan&lt;/h1&gt;&lt;p&gt;O2 side: Update ID/Secret to use newly-generated one provided by EDA, and repoint PCRF/OAM from PAK to DNS&lt;/p&gt;&lt;p&gt;EDA side: EDA cluster upgrade from version 2.13 to 2.18, and config DNS to fully leverage MDR &amp;amp; PAK&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-86" width="401" height="120" as="geometry" />
+        <mxCell id="aldJWcY6TxQIektb4E-C-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Future plan&lt;/h1&gt;&lt;p&gt;O2 side: Update ID/Secret to use newly-generated one provided by EDA, and repoint PCRF/OAM from PAK to DNS&lt;/p&gt;&lt;p&gt;EDA side: EDA cluster upgrade from version 2.13 to 2.18, and config DNS to fully leverage MDR &amp;amp; PAK so that MDR and PAK can hot standby each other&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-86" width="401" height="143" as="geometry" />
         </mxCell>
         <mxCell id="aldJWcY6TxQIektb4E-C-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DNS endpoints&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;http://eda2mobileprd-trf.telecom.tcnz.net:8080/CAI3G1.2/services/CAI3G1.2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;pcrf?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;oam?&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="495" y="1" width="454" height="120" as="geometry" />
